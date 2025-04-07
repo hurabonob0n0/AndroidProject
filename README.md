@@ -4,8 +4,12 @@ SmartPhone Game Programming
 게임 제목 : Portal BounceBall
 
 게임 컨셉 :
+
+
 ![image](https://github.com/user-attachments/assets/f59f4898-1f17-48df-9d21-355025d8f5df)
++
 ![image](https://github.com/user-attachments/assets/269d5f52-8341-4ade-b568-10fafcf5399d)
+
 유명한 게임인 바운스볼과 포탈의 기믹을 합친 게임이다.
 
 개발 범위:
@@ -23,11 +27,15 @@ SmartPhone Game Programming
 4. 추가로 시간이 남는다면 맵툴을 만든다.
 
 예상 게임 흐름:
-![image](https://github.com/user-attachments/assets/b4464122-7a3e-476e-849b-7d6d7700de43) --->  ![image](https://github.com/user-attachments/assets/3d6fcef2-1992-422f-a385-2f1b22faeccd) --->    ![image](https://github.com/user-attachments/assets/9ed36a32-c8ea-4529-ae81-1af9db6bae1c)
 
-<게임 시작 화면>                                                                                 <맵 선택 Scene>                                                                                    <인 게임 Scene>
+![image](https://github.com/user-attachments/assets/b4464122-7a3e-476e-849b-7d6d7700de43) 
+![image](https://github.com/user-attachments/assets/3d6fcef2-1992-422f-a385-2f1b22faeccd) 
+![image](https://github.com/user-attachments/assets/9ed36a32-c8ea-4529-ae81-1af9db6bae1c)
+
+<게임 시작 화면> --> <맵 선택 Scene> --> <인 게임 Scene>
 
 
 개발 일정:
+
 ![image](https://github.com/user-attachments/assets/6a08a225-8384-4f44-a937-c5024b7b80c3)
 
