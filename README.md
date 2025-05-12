@@ -40,7 +40,15 @@ SmartPhone Game Programming
 2. 2D 상의 물리 구축 30%
 - 중력을 통해 물체가 떨어지는 것을 구현했다.
 
-3. 5가지 다른 기믹을 활용할 수 있는 스테이지 구현 0% 
+3. 5가지 다른 기믹을 활용할 수 있는 스테이지 구현 0%
+
+
+주차별 Commit 상황
+![image](https://github.com/user-attachments/assets/d2d96d8b-f693-43bf-bbbf-abfbfe6cecc4)
+
+
+MainScene에 등장하는 game object들
+아직 만들지 않았다.
 
 
 
