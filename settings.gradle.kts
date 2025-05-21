@@ -19,6 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "BounceBall"
+rootProject.name = "BouncingPortal"
 include(":app")
+include(":a2dg")
  
