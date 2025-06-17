@@ -66,14 +66,14 @@ public class Ball extends Sprite implements IBoxCollidable , ITouchable{
 
                 if(posY - 0.25f <= tileTop && !upcollision){
                     //posY = tileTop - height / 2 - 0.01f;
-                    posY = tileTop - height / 2;
+                    posY = tileTop - height / 2 - 0.01f;
                     vy *= -bounce;
                     upcollision = true;
                     continue;
                 }
                 else if(posY + 0.25f >= tileBottom && !downcollision){
                     //posY = tileBottom + height / 2+ 0.01f;
-                    posY = tileBottom + height / 2;
+                    posY = tileBottom + height / 2 + 0.01f;
                     vy *= bounce;
                     downcollision = true;
                     continue;
