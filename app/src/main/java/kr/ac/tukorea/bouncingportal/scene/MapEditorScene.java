@@ -87,7 +87,7 @@ public class MapEditorScene extends Scene {
         add(Layer.touch, new Button(R.mipmap.save_button, 26.5f, 13.5f, 2f, 1.5f, pressed -> {
             if (!pressed) return true; // UP일 때만 처리 (DOWN 무시)
             try {
-                saveMapToFile("map3.json");
+                saveMapToFile("map5.json");
             } catch (Exception e) {
                 e.printStackTrace();
             }

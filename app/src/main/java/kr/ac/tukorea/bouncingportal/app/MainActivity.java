@@ -13,25 +13,21 @@ import androidx.core.view.WindowInsetsCompat;
 
 
 import kr.ac.tukorea.bouncingportal.R;
+import kr.ac.tukorea.bouncingportal.scene.MapEditorScene;
+import kr.ac.tukorea.bouncingportal.scene.TitleScene;
+import kr.ac.tukorea.ge.spgp2025.a2dg.framework.activity.GameActivity;
+import kr.ac.tukorea.ge.spgp2025.a2dg.framework.view.GameView;
+import kr.ac.tukorea.ge.spgp2025.a2dg.framework.view.Metrics;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends GameActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Metrics.setGameSize(29, 15); // 게임 좌표계 설정
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
-    }
+        setContentView(GameView.view); // GameView를 화면에 붙이기
 
-    public boolean onTouchEvent(MotionEvent event) {
-        if (event.getAction() == MotionEvent.ACTION_DOWN) {
-            startActivity(new Intent(this, BouncingPortalActivity.class));
-        }
-        return false;
-    }
-
-    public void onMapEditorClicked(View view) {
-        Intent intent = new Intent(this, MapEditorActivity.class);
-        startActivity(intent);
+        new TitleScene().push();
     }
 }

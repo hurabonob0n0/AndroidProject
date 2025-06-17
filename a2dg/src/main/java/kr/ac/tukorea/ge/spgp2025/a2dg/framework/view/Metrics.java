@@ -7,8 +7,8 @@ import android.util.Log;
 
 public class Metrics {
     private static final String TAG = Metrics.class.getSimpleName();
-    public static float width = 1500f;
-    public static float height = 2900f;
+    public static float width = 29;
+    public static float height = 15;
     public static final float GRID_UNIT = 100f;
     public static final RectF borderRect = new RectF(0, 0, Metrics.width, Metrics.height);
     public static final RectF screenRect = new RectF();
@@ -55,6 +55,10 @@ public class Metrics {
         pointsBuffer[1] = y;
         transformMatrix.mapPoints(pointsBuffer);
         return pointsBuffer;
+    }
+
+    public static float size(float gameSize) {
+        return toScreen(gameSize, 0)[0];
     }
 
     public static void concat(Canvas canvas) {

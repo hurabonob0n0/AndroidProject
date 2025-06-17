@@ -13,24 +13,6 @@
         android:theme="@style/Theme.BouncingPortal"
         tools:targetApi="31">
         <activity
-            android:name=".app.MapSelectActivity"
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:theme="@style/Theme.AppCompat.NoActionBar.BlackBackground"
-            android:exported="false" />
-        <activity
-            android:name=".app.MapEditorActivity"
-            android:configChanges="orientation|screenSize"
-            android:exported="false"
-            android:screenOrientation="landscape"
-            android:theme="@style/Theme.AppCompat.NoActionBar.BlackBackground" />
-        <activity
-            android:name=".app.BouncingPortalActivity"
-            android:configChanges="orientation|screenSize"
-            android:exported="false"
-            android:screenOrientation="landscape"
-            android:theme="@style/Theme.AppCompat.NoActionBar.BlackBackground" />
-        <activity
             android:name=".app.MainActivity"
             android:configChanges="orientation|screenSize"
             android:exported="true"
