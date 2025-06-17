@@ -4,11 +4,14 @@ SmartPhone Game Programming
 
 게임 컨셉 :
 
-image + image
+![image](https://github.com/user-attachments/assets/bfaf109c-e2ec-47eb-9eef-c1c1d99ebd8e)
+
 
 유명한 게임인 바운스볼과 포탈의 기믹을 합친 게임이다.
 
 개발 범위:
+![image](https://github.com/user-attachments/assets/2f880073-3802-4a8c-8fad-089115928828)
+
 
 시작화면 – 레벨 선택 단계 – 인게임, 이렇게 3단계의 Scene 구현 안드로이드 스튜디오의 레이아웃을 활용하여 시작 화면을 구현한다. 레벨 선택 단계와 인게임은 커스텀 뷰를 사용하여 구현한다. Scene 간의 입력 처리와 상호작용 구현한다.
 
@@ -24,7 +27,9 @@ Scene 구현 80%
 2D 상의 물리 구축 50%
 5가지 다른 기믹을 활용할 수 있는 스테이지 구현 0%
 맵툴 구현 50%
-주차별 Commit 상황 image
+주차별 Commit 상황 
+![image](https://github.com/user-attachments/assets/2c86005f-6102-4cf8-8458-3d92e2ff328d)
+
 
 사용된 기술:
 교수님이 만들어주신 FrameWork 내에서 대부분 사용하였다.
