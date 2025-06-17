@@ -56,3 +56,6 @@ Ball의 위치에 따라 충돌할 수 있는 4개의 tile에 대해서만 충�
 
 게임 프레임워크를 왜 만들고 어떤 식으로 만드는 지 배운 것 같다.
 
+발표영상 : https://youtu.be/YP5f8lfHYG4
+
+시연 영상 : https://youtu.be/93CGHKIOS1c
